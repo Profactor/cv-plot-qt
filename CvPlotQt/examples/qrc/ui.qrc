@@ -1,0 +1,10 @@
+<!-- CvPlotQt - https://github.com/Profactor/cv-plot-qt -->
+<!-- Copyright (c) 2020 by PROFACTOR GmbH - https://www.profactor.at/ -->
+<RCC>
+    <qresource prefix="/">
+      <file>DemoOneMinute.qml</file>
+      <file>DemoTwoMinutes.qml</file>
+      <file>DemoSync.qml</file>
+      <file>DemoProperties.qml</file>
+    </qresource>
+</RCC>

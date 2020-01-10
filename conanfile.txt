@@ -1,0 +1,13 @@
+[requires]
+CvPlot/1.0@profactor-public/stable
+qt/5.14.0@bincrafters/stable #no package with qtquickcontrols on bintray -> build locally or remove this line and use manually installed Qt
+
+[options]
+qt:qtquickcontrols=True
+        
+[generators]
+cmake
+
+[imports]
+bin, *.dll -> ./bin
+lib, *.so* -> ./lib
