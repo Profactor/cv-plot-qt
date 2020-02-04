@@ -38,12 +38,6 @@ find_package(Qt5 COMPONENTS Quick)
 target_link_libraries(${target} Qt5::Quick)
 set_target_properties(${target} PROPERTIES AUTOMOC ON AUTORCC ON)
 
-#OpenCV
-if(NOT OpenCV_LIBS)
-    find_package(OpenCV REQUIRED)
-endif()
-target_link_libraries(${target} ${OpenCV_LIBS})
-
 #Tests and Examples
 option(CVPLOTQT_WITH_TESTS "Build with tests" ON)
 option(CVPLOTQT_WITH_EXAMPLES "Build with examples" ON)
