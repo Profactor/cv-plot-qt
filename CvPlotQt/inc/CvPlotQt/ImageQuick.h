@@ -5,8 +5,8 @@
 
 #include <CvPlotQt/libdef.h>
 #include <CvPlotQt/DrawableQuick.h>
-#include <CvPlot/internal/Pimpl.h>
-#include <CvPlot/internal/no_warning.h>
+#include <CvPlot/Internal/Pimpl.h>
+#include <CvPlot/Internal/no_warning.h>
 #include <QRectF>
 #include <QVariant>
 

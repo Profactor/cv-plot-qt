@@ -3,7 +3,7 @@
 
 #include <CvPlotQt/ImageQuick.h>
 #include <CvPlot/drawables/Image.h>
-#include <CvPlotQt/internal/declareQtTypes.h>
+#include <CvPlotQt/Internal/declareQtTypes.h>
 
 using namespace CvPlot;
 
