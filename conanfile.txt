@@ -1,5 +1,5 @@
 [requires]
-CvPlot/1.0@profactor-public/stable
+CvPlot/1.2@profactor-public/stable
 qt/5.14.0@bincrafters/stable #no package with qtquickcontrols on bintray -> build locally or remove this line and use manually installed Qt
 
 [options]
@@ -11,3 +11,4 @@ cmake
 [imports]
 bin, *.dll -> ./bin
 lib, *.so* -> ./lib
+x64, *.dll -> ./bin @ keep_path=False #opencv
