@@ -6,7 +6,7 @@
 #include <CvPlotQt/libdef.h>
 #include <string>
 
-#define CVPLOTQT_VERSION "0.1"
+#define CVPLOTQT_VERSION "0.2"
 
 namespace CvPlotQt {
 
